@@ -21,3 +21,10 @@ if __name__ == "__main__":
     input_string = input("Enter a string to hash: ")
     hashed_result = hash_string(input_string)
     print(f"Hashed result using SHA-256: {hashed_result}")
+    
+
+if __name__ == "__main__":
+    # Example usage:
+    input_string = input("Enter a string to hash: ")
+    hashed_result = hash_string(input_string)
+    print(f"Hashed result using SHA-256: {hashed_result}")
